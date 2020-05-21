@@ -2,9 +2,14 @@
 
 # List Practical
  - [HMCV Routes BaseController](https://github.com/Ekhel/CI4-practical/tree/master/modules/Beranda)
-    - Set Route file from app/Routes.php
+    - Set Route file from app/Routes.php at the bottom of line code
 
     ```php
+    /**
+    * --------------------------------------------------------------------
+    * Additional HMVC BaseController
+    * --------------------------------------------------------------------
+    */
     if (file_exists(ROOTPATH.'modules')) {
 	    $modulesPath = ROOTPATH.'modules/';
 	    $modules = scandir($modulesPath);
